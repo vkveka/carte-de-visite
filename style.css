@@ -1,0 +1,103 @@
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom,#00C9FF, #92FE9D);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.fondblanc {
+    width: 800px;
+    background-color: white;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+img {
+    max-width: 300px;
+    border-radius: 20px;
+    
+}
+
+.carre {
+    height: 330px;
+    max-width: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+
+.john {
+    font-family: 'Sigmar One', cursive;
+    font-size: 30px;
+    color: rgb(44, 44, 44);
+    margin: 5px;
+}
+
+
+.coord {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+p, .DW {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 1000;
+}
+
+
+.DW {
+    color: grey;
+}
+
+p {
+    color: rgb(88, 88, 88);
+    margin: 0px;
+}
+
+
+
+i {
+    color: #00C9FF;
+    font-size: 30px;
+}
+
+.calendar, .tel, .mail, .lieu {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    
+}
+
+.lieu {
+    column-gap: 16px;
+}
+
+.calendar {
+    column-gap: 12px;
+}
+
+.reseaux {
+    display: flex;
+    column-gap: 10px;
+}
+
+a i:hover {
+    color: #92FE9D;
+}
+
+
